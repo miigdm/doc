@@ -3,4 +3,4 @@
 ###testing gitbook for pixelant documentation
 
 
-### [Pixelant Doc](https://pixelant.gitbooks.io/doc/content)
+### [Pixelant Doc](https://pixelant.gitbooks.io/doc/content/)
