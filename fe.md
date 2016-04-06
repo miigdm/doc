@@ -1,2 +1,2 @@
-# FE
+# Front-End documentation
 
