@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
-* FE documentation
+* [FE documentation](fe_documentation.md)
 
