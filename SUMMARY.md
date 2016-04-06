@@ -2,6 +2,6 @@
 
 * [Introduction](README.md)
 * [BE](be.md)
-* [FE](fe_documentation.md)
+* [FE](fe.md)
    * [felayout](felayout.md)
 
