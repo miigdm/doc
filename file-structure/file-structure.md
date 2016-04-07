@@ -38,12 +38,6 @@ To this file we can include all styles of new elements
   * **templates** - folder with handlebars templates. We build templates using **handlebars** template language and **assemble system** with some useful helpers. Also it is very similar to Fluid templates. We use one layout and pages based on this layout. Also we can use partials in layout and pages.
 
 Hierarchy of links in **Main navigation** for fe_layout based on files and folders relations. For example, if file and folder on same level has same names, files in folder will be children of this file, no needs to point parent file’s title. 
-| 0:0 | 1:0 |
-| -![](t3kit-docs-structure.png)- | -![](t3kit-docs-structure-web.png)- |
 
-
-
-
-dfeh
-
+![](t3kit-docs-structure-n-web.png)
 
