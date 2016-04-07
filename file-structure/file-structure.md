@@ -41,3 +41,9 @@ Hierarchy of links in **Main navigation** for fe_layout based on files and folde
 
 ![](t3kit-docs-structure-n-web.png)
 
+
+  * **grunt** - folder that contain files with configurations for Grunt plugins
+
+  * **node_modules** - folder with Node modules required for developing. Some of them mentioned in package.json file, other - required by this NPM modules 
+
+  * **temp** - temporary folder for development. This folder contain all files needed for local machine work - assembled HTML files, scripts, styles, favicons, fonts, images. 
