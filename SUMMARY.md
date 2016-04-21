@@ -8,6 +8,6 @@
    * [How to get your IP-address?](how-to-get-your-IP/how-to-get-your-IP.md)
    * [Static site](static-site/static-site.md)
    * [File structure](file-structure/file-structure.md)
-   * test1
+   * [test1](test1.md)
 * [t3kit](t3kit.md)
 
