@@ -10,4 +10,5 @@
    * [File structure](file-structure/file-structure.md)
    * [test1](test1.md)
 * [t3kit](t3kit.md)
+* Vagrant machine
 
