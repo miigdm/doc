@@ -31,7 +31,7 @@ tx_news.templateLayouts {
 
 Here you will have to add your new template. It is important that the typoscript declaration has the same name as the filename. E.g if you create a new template called Bubbles.html you should add the below in the typoscript: 
 ```
-Bubbles = News as bubbles
+Bubbles = News as fluffy bubbles
 ```
 
 
