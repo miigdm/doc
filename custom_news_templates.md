@@ -6,6 +6,8 @@ We have our own custom news templates in theme_t3kit extending the original from
 * List view. 
 * Cards. 
 
+
+
 #### Changing templates 
 
 You can switch between the different views by editing the *News system plugin* here
