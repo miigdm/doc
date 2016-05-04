@@ -11,5 +11,5 @@
    * [test1](test1.md)
 * [t3kit](t3kit.md)
 * [Vagrant machine](vagrant_machine.md)
-* Custom News templates
+* [Custom News templates](custom_news_templates.md)
 
