@@ -12,7 +12,7 @@
 * [t3kit](t3kit.md)
    * [t3kit project manual](t3kit_project_manual.md)
        * How to create new content elements
-       * How to edit partials and templates (header, footer, content elements)
+       * [How to edit partials and templates (header, footer, content elements)](how_to_edit_partials_and_templates_header,_footer,.md)
        * [How to install felayout](how_to_install_felayout.md)
        * [Three types of felayout for medium and big projects](three_types_of_felayout_for_medium_and_big_project.md)
 * [Vagrant machine](vagrant_machine.md)
