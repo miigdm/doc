@@ -12,6 +12,7 @@
 * [t3kit](t3kit.md)
    * [t3kit project manual](t3kit_project_manual.md)
        * How to create new content elements
+       * How to edit partials and templates (header, footer, content elements)
 * [Vagrant machine](vagrant_machine.md)
 * [Custom News templates](custom_news_templates.md)
 * [RTE add custom class](rte.md)
