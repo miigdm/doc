@@ -11,6 +11,7 @@
    * [test1](test1.md)
 * [t3kit](t3kit.md)
    * [t3kit project manual](t3kit_project_manual.md)
+       * How to create new content elements
 * [Vagrant machine](vagrant_machine.md)
 * [Custom News templates](custom_news_templates.md)
 * [RTE add custom class](rte.md)
