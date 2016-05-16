@@ -12,5 +12,5 @@
 * [t3kit](t3kit.md)
 * [Vagrant machine](vagrant_machine.md)
 * [Custom News templates](custom_news_templates.md)
-* [RTE](rte.md)
+* [RTE add custom class](rte.md)
 
