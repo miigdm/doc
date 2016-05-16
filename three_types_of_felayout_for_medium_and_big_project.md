@@ -17,7 +17,7 @@ Standard way of working with felayout, like it was on CORE. Providing css, js, i
 **Front-End Developing:**  
 Run ```grunt``` to start static server with livereload localhost:9004  
 Run ```grunt +css``` to start static server [same as **grunt**] plus it generates all Front-End service files plus CSS styling for CMS needs, and copy it to **css** folder. [with livereload]  
-Run ```grunt pushCss``` to compile all Front-End service files plus CSS styling for CMS needs, copy it to separate branch css and push to remote git server.  
+Run ```grunt pushCss``` to compile all Front-End service files plus CSS styling for CMS needs, copy it to separate branch **css** and push to remote git server.  
 Run ```grunt check``` to check HTML/CSS/JS files according project code conventions
 
 **t3kit settings** (TYPO3 BE -> Theme constants -> Expert):  
