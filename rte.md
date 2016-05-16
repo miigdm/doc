@@ -1,4 +1,4 @@
-# RTE
+# RTE add custom class
 Adding classes to RTE links:
 
 Edit root page, click on the "Resources" tab and in the "Page TSConfig" section add:
