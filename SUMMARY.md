@@ -14,7 +14,7 @@
        * How to create new content elements
        * How to edit partials and templates (header, footer, content elements)
        * How to install felayout
-       * Three types of felayout for medium and big projects
+       * [Three types of felayout for medium and big projects](three_types_of_felayout_for_medium_and_big_project.md)
 * [Vagrant machine](vagrant_machine.md)
 * [Custom News templates](custom_news_templates.md)
 * [RTE add custom class](rte.md)
