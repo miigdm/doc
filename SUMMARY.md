@@ -10,6 +10,7 @@
    * [File structure](file-structure/file-structure.md)
    * [test1](test1.md)
 * [t3kit](t3kit.md)
+   * t3kit project manual
 * [Vagrant machine](vagrant_machine.md)
 * [Custom News templates](custom_news_templates.md)
 * [RTE add custom class](rte.md)
