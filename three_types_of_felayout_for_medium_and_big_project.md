@@ -16,7 +16,7 @@ Standard way of working with felayout, like it was on CORE. Providing css, js, i
 **Installation:**  
 ```mkdir felayout_projectname```  
 ```cd felayout_projectname ```   
-```yo fe-kit``` (make sure that you read about Pixelant Front-End Starter Kit)
+```yo fe-kit``` (make sure that you read about [Pixelant Front-End Starter Kit](https://pixelant.gitbooks.io/doc/content/how_to_install_felayout.html))
 
 **Front-End Developing:**  
 Run ```grunt``` to start static server with livereload localhost:9004  
@@ -44,7 +44,7 @@ Type of felayout that provide less files for TYPO3 installations. Developing and
 **Installation:**  
 ```mkdir felayout_projectname```  
 ```cd felayout_projectname ```   
-```yo fe-kit``` (make sure that you read about Pixelant Front-End Starter Kit)
+```yo fe-kit``` (make sure that you read about [Pixelant Front-End Starter Kit](https://pixelant.gitbooks.io/doc/content/how_to_install_felayout.html))
 
 **Front-End Developing:**  
 Run ```grunt``` to start static server with livereload localhost:9004  
