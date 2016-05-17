@@ -19,5 +19,5 @@
 * [Vagrant machine](vagrant_machine.md)
 * [Custom News templates](custom_news_templates.md)
 * [RTE add custom class](rte.md)
-* Testing packages
+* [Testing packages](testing_packages.md)
 
