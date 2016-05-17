@@ -1,0 +1,2 @@
+# RTE add custom class
+
