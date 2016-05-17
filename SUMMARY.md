@@ -18,6 +18,6 @@
    * [t3kit project types](t3kit_project_types.md)
 * [Vagrant machine](vagrant_machine.md)
 * [Custom News templates](custom_news_templates.md)
-* [RTE add custom class](rte.md)
+* [RTE add custom class](rtemd.md)
 * [Testing packages](testing_packages.md)
 
