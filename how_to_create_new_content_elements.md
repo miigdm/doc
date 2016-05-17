@@ -28,7 +28,7 @@ Save.
 
 
 You will now have a new tab called "**Custom elements**" when creating elements, with your new content element: ![](content element.png)
-In the "**Filelist**", there will now be new created folders and files:
+In the "**Fileadmin**", there will now be new created folders and files:
 (**fileadmin/templates/theme_t3kit/custom_content_elements/**)
 
 
