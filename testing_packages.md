@@ -19,3 +19,4 @@ Last update (March 2016)
 | Windows 7, Windows 8, Windos 10 |  |  |
 | | |  |
 | *Is included* | *Costs 25% extra *| *Costs 50% extra* |
+
