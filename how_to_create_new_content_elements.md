@@ -61,18 +61,60 @@ In the "**Filelist**", there will now be new created folders and files:
 | | | | |____CustomContentElements
 | | | | | |____customElement.svg```
 
-Configuration folder:  
-ext_tables.php  
-flexform_twbsButton.xml  
-twbsButton.pagets  
-WizardTabs.pagets  
-tt_content.php  
-twbsButton.setupts
+A brief explanation of the files:
 
-Resources folder:  
-CustomContentElements.xlf  
-TwbsButton.html  
-customElement.svg
+**Configuration folder:**  
+- ```ext_tables.php  ```  
+ - This file is for the icon of the element in backend. Without it, there will be a broken icon.
+ - Add new iconRegistry here
+ - **Not unique** per content element (shared).
+    
+
+- ```flexform_twbsButton.xml ```
+  - This file is optional if you know that your element needs custom settings, which can not be handled original fields in tt_content. 
+  - Should not be used for anything that will be rendered on page. 
+  - **Unique** per content element
+  
+
+- ```twbsButton.pagets ```
+  - This file is to get the content available in new content wizard tab. 
+  - It can also be used to manipulate flexform and form values. 
+  - **Unique** per content element
+
+
+- ```WizardTabs.pagets```  
+  - This is only for adding the tab in backend for new elements wizard. 
+  
+ 
+- ```tt_content.php ```
+  - This file is used to configure what fields that are available in backend form. 
+  -  Also adds Content element type selector. 
+  -  Also where the type icon is set. 
+  -  If a flexform is created, you will register it here. 
+  -  **Not unique** per content element (shared)
+
+
+- ```twbsButton.setupts```
+  - This file is for configurating how to render the content. 
+  - **Unique** per content element
+
+
+**Resources folder:**
+
+- ```CustomContentElements.xlf```
+  - This file is for the descriptions of the element 
+  -  **Not unique** per content element (shared)
+
+
+- ```TwbsButton.html```
+  - This file is the actual template for the element
+  - **Unique** per content element
+
+
+- ```customElement.svg```
+  - This file is the icon for the element
+  - This file could be unique or you could link your new content to this file.
+
 
 
 
