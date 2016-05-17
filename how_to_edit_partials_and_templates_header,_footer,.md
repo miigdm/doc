@@ -12,4 +12,4 @@ Copy the content from the [original file](https://github.com/t3kit/theme_t3kit/b
 
 ###Step 2
 
-
+Choose **"Template"** in TYPO3 menu 
