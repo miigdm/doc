@@ -150,26 +150,29 @@ You could use, f.e, name, that your camera gave to the image, like “YDXJ0772.j
 ```less 
 @font-face {
 	…
-src: url(‘/fonts/sansation_light.woff’);
+      src: url(‘/fonts/sansation_light.woff’);
 	...
 }
 ```
 
 * In the CSS3 @font-face rule you must first define a name for the font (e.g. myFont), and then point to the font file.
+
 ```less
 @font-face {
-font-family: myFont;
-src: url(‘/fonts/sansation_light.woff’);
+      font-family: myFont;
+      src: url(‘/fonts/sansation_light.woff’);
 ...
 }
 ```
 
 * You can add another @font-face rule containing descriptors for other types of text.
+
+
 ```less
 @font-face {
-  font-family: myFont;
-  src: url(‘/fonts/sansation_bold.woff’);
-  font-weight: bold;
+      font-family: myFont;
+      src: url(‘/fonts/sansation_bold.woff’);
+      font-weight: bold;
 ...
 }```
 * Compress fonts
@@ -178,24 +181,26 @@ src: url(‘/fonts/sansation_light.woff’);
 
 
 * Try to find font locally
+
 ```less
 @font-face {
-font-family: myFont;
-src: local(‘Sansation’),
-url(‘/fonts/sansation_light.woff2’) format(‘woff2’),
-url(‘/fonts/sansation_light.woff’) format(‘woff’),
+      font-family: myFont;
+      src: local(‘Sansation’),
+      url(‘/fonts/sansation_light.woff2’) format(‘woff2’),
+      url(‘/fonts/sansation_light.woff’) format(‘woff’),
 ...
 }
 ```
 
 * Use format() hint to specify multiple font formats  
+
 ```less
 @font-face {
-font-family: myFont;
-src: url(‘/fonts/sansation_light.eot’) format(‘embedded-opentype’),
-url(‘/fonts/sansation_light.ttf’) format(‘truetype’),
-url(‘/fonts/sansation_light.woff’) format(‘woff’),
-url(‘/fonts/sansation_light.woff2’) format(‘woff2’);
+      font-family: myFont;
+      src: url(‘/fonts/sansation_light.eot’) format(‘embedded-opentype’),
+      url(‘/fonts/sansation_light.ttf’) format(‘truetype’),
+      url(‘/fonts/sansation_light.woff’) format(‘woff’),
+      url(‘/fonts/sansation_light.woff2’) format(‘woff2’);
 ...
 }
 ```
@@ -213,21 +218,22 @@ The order in which the font variants are declired matters. The browser’ll pick
 ```less
 @font-face {
 font-family: myFont;
-src: url(‘/fonts/sansation_light.woff2’) format(‘woff2’),
-url(‘/fonts/sansation_light.woff’) format(‘woff’),
-url(‘/fonts/sansation_light.ttf’) format(‘truetype’),
-url(‘/fonts/sansation_light.eot’) format(‘embedded-opentype’);
+      src: url(‘/fonts/sansation_light.woff2’) format(‘woff2’),
+      url(‘/fonts/sansation_light.woff’) format(‘woff’),
+      url(‘/fonts/sansation_light.ttf’) format(‘truetype’),
+      url(‘/fonts/sansation_light.eot’) format(‘embedded-opentype’);
 ...
 }
 ````
 
 * Use Unicode-range subsetting  
 The unicode-range descriptor annows us to specify a comma-delimited list of range values.
+
 ```less
 @font-face {
-font-family: myFont;
-src: url(‘/fonts/sansation_light.woff2’) format(‘woff2’);
-unicode-range: U+000-5FF, U+ff??;
+      font-family: myFont;
+      src: url(‘/fonts/sansation_light.woff2’) format(‘woff2’);
+      unicode-range: U+000-5FF, U+ff??;
 ...
 }
 ```
