@@ -21,4 +21,5 @@
 * [Custom News templates](custom_news_templates.md)
 * [RTE add custom class](rtemd.md)
 * [Testing packages](testing_packages.md)
+* Pixelant Manual
 
