@@ -22,4 +22,5 @@
 * [RTE add custom class](rtemd.md)
 * [Testing packages](testing_packages.md)
 * [Pixelant Manual](pixelant_manual.md)
+   * Pixelant JavaScript Style Guide
 
