@@ -12,7 +12,7 @@ Copy the content from the [original file](https://github.com/t3kit/theme_t3kit/b
 
 ###Step 2
 
-Choose **"Template"** in typo3 menu.   
+Choose **"Template"** in TYPO3 menu.   
 Be sure you are on the rootpage.  
 Select **"Info/modify"** from the dropdown if it is not already set.  
 Click on **"Setup"**
