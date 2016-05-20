@@ -13,7 +13,7 @@ This process simplifies the steps of creating new content elements, as it auto-g
 Save.
 
 ####Step 2
-1. Choose "**Template**" from the typo3 menu.   
+1. Choose "**Template**" from the TYPO3 menu.   
 1. Choose rootpage.
 1. The dropdown should have "**Info/Modify**" selected.  
 1. Click on "**Edit the whole template record**"
