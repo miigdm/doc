@@ -41,7 +41,7 @@ Pixelant Core use a lot of icons. Our choise is icon font (a font with icons as 
 
 ###Favicon
 * Prepare file icon.png ```(260px/260px)```.
-  * Note: It should be simple icon, with possibility to scale and pretty good view in different sizes. Read more about whole process with favicons.
+  * Note: It should be simple icon, with possibility to scale and pretty good view in different sizes. [Read more about whole process with favicons.](https://pixelant.gitbooks.io/doc/content/rootfiles.html)
 
 
 ###Files
@@ -51,3 +51,69 @@ Pixelant Core use a lot of icons. Our choise is icon font (a font with icons as 
 * icon.png (260px/260px) (favicon)
 * High Resolution logo with transparency (png, svg)
 * Additional images
+
+###Links
+* Animations:
+  * [Animate.css](http://daneden.github.io/animate.css/)
+  * [Hover](http://ianlunn.github.io/Hover/)
+  * [PageTransitions](http://tympanus.net/Development/PageTransitions/)
+  * [Effeckt](http://h5bp.github.io/Effeckt.css/#0)
+* Fonts:
+  * [Google Fonts](https://www.google.com/fonts/)
+  * [Typekit](https://typekit.com/)
+  * [Typetester](https://www.typetester.org/)
+  * [Somadesign](http://somadesign.ca/demos/better-google-fonts/)
+  * [Webfonts Ampersands](http://hail2u.github.io/google-webfonts-ampersands.html)
+  * [Cssfontstack](http://www.cssfontstack.com/)
+  * [Typecast](http://typecast.com/preview/google)
+  * [Brick](http://brick.im/)
+
+###Required Icons for Pixelant Core
+
+```html
+<span class="icons icon-t3-mobile"></span>
+<span class="icons icon-t3-mail"></span>
+<span class="icons icon-t3-home"></span>
+<span class="icons icon-t3-sitemap"></span>
+<span class="icons icon-t3-login"></span>
+<span class="icons icon-t3-dropdown-arrow"></span>
+<span class="icons icon-t3-search"></span>
+<span class="icons icon-t3-map"></span>
+```
+####Social icons
+
+```html
+<span class="icons icon-t3-facebook"></span>
+<span class="icons icon-t3-twitter"></span>
+<span class="icons icon-t3-linkedin"></span>
+<span class="icons icon-t3-vimeo"></span>
+<span class="icons icon-t3-googleplus"></span>
+<span class="icons icon-t3-pinterest"></span>
+```
+####Carousel
+```html
+<span class="icons icon-t3-slider-arrow-left"></span>
+<span class="icons icon-t3-slider-arrow-right"></span>
+```
+####Quote
+```html
+<span class="icons icon-t3-quoteMark"></span>
+```
+####Files
+```html
+<span class="icons icon-t3-file"></span>
+<span class="icons icon-t3-film"></span>
+<span class="icons icon-t3-picture"></span>
+```
+####News
+```html
+<span class="icons icon-t3-newsCarousel-arrow-up"></span>
+<span class="icons icon-t3-newsCarousel-arrow-down"></span>
+<span class="icons icon-t3-news-categoryIcon"></span>
+<span class="icons icon-t3-news-archiveIcon"></span>
+```
+####Search
+```html
+<span class="icons icon-t3-search-pagination-left"></span>
+<span class="icons icon-t3-search-pagination-right"></span>
+```
