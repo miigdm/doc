@@ -20,13 +20,13 @@ If you'd like to create a new type of Special Menu that doesn't already exist, h
  ```
 # Add menu
 TCEFORM.tt_content.menu_type {
-   types {
-      menu{
-         addItems {
-            99 = Menu of selected pages with image
+      types {
+         menu{
+            addItems {
+               99 = Menu of selected pages with image
+            }
          }
       }
-   }
 }```
 
 5. Last step, add this to your Typoscript setup and make sure "1920" is a unique number.
