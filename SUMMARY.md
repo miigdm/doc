@@ -22,7 +22,6 @@
        * [How to install felayout](how_to_install_felayout.md)
        * [Three types of felayout for medium and big projects](three_types_of_felayout_for_medium_and_big_project.md)
    * [Multisites](multisites.md)
-   * Multisites
    * [t3kit project types](t3kit_project_types.md)
 * [Vagrant machine](vagrant_machine.md)
 * [Custom News templates](custom_news_templates.md)
