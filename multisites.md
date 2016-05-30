@@ -1,18 +1,35 @@
 # Multisites
 
 # -Under construction#
+**Guidelines**:  
+What is acceptable: 
+* Medium sites with original theme_t3kit and theme_t3kit_bluemountain
+	* Uses shared felayout for each theme  
+* Medium sites with original theme_t3kit and a big project with its own theme  
+	* Uses shared felayout for each theme 
+* Several small sites  
 
-**Important to think about before setting up multisite installation:**  
-Will there be new elements on each sites?  
-Will they share the same design?  
-Will they not share the same design?  
-Will they share same design but have different new elements on each site?  
-How many hours for each site?
+
+What is ***not*** acceptable:  
+* Usage of different types of felayout for sites using the same theme  
+* 
+
+What to think about: 
+* Will there be new elements on each site?  
+* Will they share the same design?  
+* Will they not share the same design?  
+* Will they share same design but have different new elements on each site? 
+* The root template site should always be empty from information about the companies 
+* Take into consideration about what types of elements share the same styling classes. If you want to make changes to an element in "Site 1" remember that the same element on "Site 2" will be effected. 
+* Temporary URL should be *.maincompanyname.typo3konsult.se
+	* For example: companyname1.maincompanyname.typo3konsult.se
+
+
 
 ---
 
-Same kind of felayout is always shared.
-	Exception: other theme inside installation (t3kit_bluemountain/t3kit_projecname), then all sites which use bluemountain, will have the same felayout.
+Same kind of felayout is always shared.  
+**Exception:** additional theme inside installation (t3kit_bluemountain/t3kit_projectname), then all sites which use bluemountain, will have the same felayout.
 
 Use cases (These are only use cases and not how real life works):
 
@@ -56,7 +73,7 @@ Theme_t3kit(felayout0)
 
 **Use case #3.**  
 Multisite with **only medium** sites.
-* Styling changes are made from the felayout. Possibility add variables for each seperate site to use from the "Theme" in TYPO3 menu.
+* Styling changes are made from the felayout. Possibility add variables for each separate site to use from the "Theme" in TYPO3 menu.
 * **Important**:  Take into consideration about what types of elements share the same styling classes. If you want to make changes to an element in "Site 1" remember that the same element on "Site 2" will be effected.
 
 ```
