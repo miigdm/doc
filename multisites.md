@@ -1,6 +1,6 @@
 # Multisites
 
-# -Under construction#
+# -Under construction-#
 **Guidelines**:  
 What is acceptable: 
 * Medium sites with original theme_t3kit and theme_t3kit_bluemountain
