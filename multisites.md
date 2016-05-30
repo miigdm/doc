@@ -31,7 +31,7 @@ What to think about:
 Same kind of felayout is always shared.  
 **Exception:** additional theme inside installation (t3kit_bluemountain/t3kit_projectname), then all sites which use bluemountain, will have the same felayout.
 
-Use cases (These are only use cases and not how real life works):
+Use cases:
 
 * **felayout0 (upgradable)** 	= original inside theme_t3kit, changes from theme variables and/or custom.css
 * **felayout1 (css)** 		= felayout_css
