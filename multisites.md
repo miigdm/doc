@@ -1,13 +1,15 @@
 # Multisites
 
 # -Under construction-#
-**Guidelines**:  
+**Guidelines**: 
+
 What is acceptable: 
+* Several small sites  
 * Medium sites with original theme_t3kit and theme_t3kit_bluemountain
 	* Uses shared felayout for each theme  
 * Medium sites with original theme_t3kit and a big project with its own theme  
 	* Uses shared felayout for each theme 
-* Several small sites  
+
 
 
 What is ***not*** acceptable:  
@@ -151,4 +153,16 @@ Theme_t3kit_projectname (felayout3)
 	|	|-Site 3 (Big) - felayout3
 	|
 	|-Site 4 (Medium) - felayout2 shared
+```
+**Use case #7**  
+Multisite with **big.**  
+ 
+```
+Theme_t3kit_projectname(felayout3)
+	|
+	|-Site 1 (Big) - felayout3 shared 
+	|
+	|-Site 2 (Big) - felayout3 shared
+	|
+	|-Site 3 (Big) - felayout3 shared
 ```
