@@ -78,7 +78,8 @@ Theme_t3kit(felayout_upgradable)
 
 **Use case #3.**  
 Multisite with **only medium** sites.
-* Styling changes are made from the felayout. Possibility add variables for each separate site to use from the "Theme" in TYPO3 menu.
+* Styling changes are made from the felayout.  
+* Possibility add new variables to use from the "Theme" in TYPO3 menu.
 * **Important**:  Take into consideration about what types of elements share the same styling classes. If you want to make changes to an element in "Site 1" remember that the same element on "Site 2" will be effected.
 
 ```
