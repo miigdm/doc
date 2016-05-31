@@ -30,16 +30,14 @@ What to think about:
 
 ---
 
-Same kind of felayout is always shared.  
+Same type of felayout is always shared between sites.  
 **Exception:** additional theme inside installation (t3kit_bluemountain/t3kit_projectname), then all sites which use bluemountain, will have the same felayout.
 
 Use cases:
 
-* **felayout0 (upgradable)** 	= original inside theme_t3kit, changes from theme variables and/or custom.css
-* **felayout1 (css)** 		= felayout_css
-* **felayout2 (less**) 		= felayout_less
-* **felayout3 (big)** 		= felayout_less/felayout_css
-
+* **felayout_upgradable** 	= original inside theme_t3kit, changes from theme variables and/or custom.css
+* **felayout_css** 		= felayout_css
+* **felayout_less** 		= felayout_less
 
 **Use case #1  **  
 Multisite with **only basic** sites:  
@@ -47,13 +45,13 @@ Multisite with **only basic** sites:
 * They all share the same theme_t3kit/felayout and is upgradable.  
  
 ```
-Theme_t3kit(felayout0)  
+Theme_t3kit(felayout_upgradable)  
 	|  
-	|-Site 1 (basic) - felayout0   
+	|-Site 1 (basic) - felayout_upgradable  
 	|  
-	|-Site 2 (basic) - felayout0   
+	|-Site 2 (basic) - felayout_upgradable   
 	|  
-	|-Site 3 (basic) - felayout0   
+	|-Site 3 (basic) - felayout_upgradable   
 ```
 
 
@@ -64,11 +62,11 @@ Multisite with **only medium** sites.
 * **Important**: Take into consideration about what types of elements share the same styling classes. If you want to make changes to an element in "Site 1" remember that the same element on "Site 2" will be effected.  
 
 ```
-Theme_t3kit(felayout0)
+Theme_t3kit(felayout_upgradable)
 	|
-	|-Site 1 (Medium) - felayout1 shared
+	|-Site 1 (Medium) - felayout_css shared
 	|
-	|-Site 2 (Medium) - felayout1 shared
+	|-Site 2 (Medium) - felayout_css shared
 ```
 
 
@@ -79,13 +77,13 @@ Multisite with **only medium** sites.
 * **Important**:  Take into consideration about what types of elements share the same styling classes. If you want to make changes to an element in "Site 1" remember that the same element on "Site 2" will be effected.
 
 ```
-Theme_t3kit(felayout0)
+Theme_t3kit(felayout_upgradable)
 	|
-	|-Site 1 (Medium) - felayout2 shared 
+	|-Site 1 (Medium) - felayout_less shared
 	|
-	|-Site 2 (Medium) - felayout2 shared
+	|-Site 2 (Medium) - felayout_less shared
 	|
-	|-Site 3 (Medium) - felayout2 shared
+	|-Site 3 (Medium) - felayout_less shared
 ```
 
 
@@ -100,13 +98,13 @@ Multisite with **only medium** sites.
 * **Important**: Take into consideration about what types of elements share the same styling classes. If you want to make changes to an element in "Site 1" remember that the same element on "Site 2" will be effected. 
 
 ```
-Theme_t3kit(felayout0)
+Theme_t3kit(felayout_upgradable)
 	|
-	|-Site 1 (Medium) - felayout0 shared 
+	|-Site 1 (Medium) - felayout_upgradable  
 	|
-	|-Site 2 (Medium) - felayout0 shared
+	|-Site 2 (Medium) - felayout_upgradable 
 	|
-	|-Site 3 (Medium) - felayout0 shared
+	|-Site 3 (Medium) - felayout_upgradable 
 ``` 
 
 
@@ -117,19 +115,19 @@ Multisite with **medium sites, different themes.**
 Styling changes are made from the felayout (Site 1, 2, 5).  
 Styling changes are made from the felayout (Site 3, 4).  
 ```
-Theme_t3kit(felayout0)
+Theme_t3kit(felayout_upgradable)
 	|
-	|-Site 1 (Medium) - felayout1 shared
+	|-Site 1 (Medium) - felayout_css
 	|
-	|-Site 2 (Medium) - felayout1 shared
+	|-Site 2 (Medium) - felayout_css
 	|
-	|--Theme_t3kit_bluemountain (felayout0-1)
+	|--Theme_t3kit_bluemountain (felayout_upgradable_bluemountain)
 	|	|
-	|	|-Site 3 (Medium) - felayout1-1 (seperate from Site 1, 2, 5 but shared with Site 4)
+	|	|-Site 3 (Medium) - felayout_css_2 (seperate from Site 1, 2, 5 but shared with Site 4)
 	|	|
-	|	|-Site 4 (Medium) - felayout1-1 (seperate from Site 1, 2, 5 but shared with Site 3)
+	|	|-Site 4 (Medium) - felayout_css_2 (seperate from Site 1, 2, 5 but shared with Site 3)
 	|
-	|-Site 5 (Medium) - felayout1 shared
+	|-Site 5 (Medium) - felayout_css 
     ```
 
 
@@ -142,27 +140,27 @@ Styling changes are made from the felayout (Site 3).
 ```
 Theme_t3kit(felayout0)
 	|
-	|-Site 1 (Medium) - felayout2 shared 
+	|-Site 1 (Medium) - felayout_less 
 	|
-	|-Site 2 (Medium) - felayout2 shared
+	|-Site 2 (Medium) - felayout_less 
 	|
 	-
-Theme_t3kit_projectname (felayout3)
+Theme_t3kit_projectname (felayout_less/felayout_css)
 	-	|
 	|	|
-	|	|-Site 3 (Big) - felayout3
+	|	|-Site 3 (Big) - felayout_less/felayout_css
 	|
-	|-Site 4 (Medium) - felayout2 shared
+	|-Site 4 (Medium) - felayout_less 
 ```
 **Use case #7**  
 Multisite with **big.**  
  
 ```
-Theme_t3kit_projectname(felayout3)
+Theme_t3kit_projectname(felayout_less/felayout_css)
 	|
-	|-Site 1 (Big) - felayout3 shared 
+	|-Site 1 (Big) - felayout_less/felayout_css  
 	|
-	|-Site 2 (Big) - felayout3 shared
+	|-Site 2 (Big) - felayout_less/felayout_css 
 	|
-	|-Site 3 (Big) - felayout3 shared
+	|-Site 3 (Big) - felayout_less/felayout_css 
 ```
