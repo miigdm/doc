@@ -3,7 +3,7 @@
 # -Under construction-#
 **Guidelines**: 
 
-What is acceptable: 
+**What is acceptable:** 
 * Several small sites  
 * Medium sites with original theme_t3kit and theme_t3kit_bluemountain
 	* Uses shared felayout for each theme  
@@ -12,11 +12,11 @@ What is acceptable:
 
 
 
-What is ***not*** acceptable:  
+**What is *not* acceptable:**  
 * Usage of different types of felayout for sites using the same theme  
 * 
 
-What to think about: 
+**What to think about:** 
 * Will there be new elements on each site?  
 * Will they share the same design?  
 * Will they not share the same design?  
@@ -26,7 +26,11 @@ What to think about:
 * Temporary URL should be *.maincompanyname.typo3konsult.se
 	* For example: companyname1.maincompanyname.typo3konsult.se
 
+**Pros & Cons:**  
+Pros: 
 
+Cons:  
+* Clearing cache will apply to all sites 
 
 ---
 
