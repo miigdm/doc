@@ -69,9 +69,9 @@ Multisite with **only medium** sites.
 ```
 Theme_t3kit(felayout_upgradable)
 	|
-	|-Site 1 (Medium) - felayout_css shared
+	|-Site 1 (Medium) - felayout_css 
 	|
-	|-Site 2 (Medium) - felayout_css shared
+	|-Site 2 (Medium) - felayout_css 
 ```
 
 
@@ -84,11 +84,11 @@ Multisite with **only medium** sites.
 ```
 Theme_t3kit(felayout_upgradable)
 	|
-	|-Site 1 (Medium) - felayout_less shared
+	|-Site 1 (Medium) - felayout_less 
 	|
-	|-Site 2 (Medium) - felayout_less shared
+	|-Site 2 (Medium) - felayout_less 
 	|
-	|-Site 3 (Medium) - felayout_less shared
+	|-Site 3 (Medium) - felayout_less 
 ```
 
 
