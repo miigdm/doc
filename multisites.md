@@ -9,7 +9,7 @@
 	* Uses shared felayout for each theme  
 * Medium sites with original theme_t3kit and a big project with its own theme  
 	* Uses shared felayout for each theme 
-
+* Favicons can be stored in fileadmin/favicons/nameOfProject
 
 
 **What is *not* acceptable:**  
@@ -25,6 +25,7 @@
 * Take into consideration about what types of elements share the same styling classes. If you want to make changes to an element in "Site 1" remember that the same element on "Site 2" will be effected. 
 * Temporary URL should be *.maincompanyname.typo3konsult.se
 	* For example: companyname1.maincompanyname.typo3konsult.se
+* Favicons
 
 **Pros & Cons:**  
 Pros: 
