@@ -22,7 +22,7 @@ Simple website. Design and architecture is based on t3kit out of the box. Main p
 * Can't create new content elements.  
 * Can't install new extensions.  
 * **PageTS** and **TypoScript** could be added in TYPO3 BE or additional files in *fileadmin/templates/Configuration/*  
-* Site based on **theme_t3kit** extension + **felayout_t3kit** as a submodule 
+* Site based on **theme_t3kit** extension + **felayout_t3kit** as a submodule. 
 
 ---
 
@@ -32,14 +32,14 @@ Project type: Waterfall
 Start: 2-3 month  
 Hosting: shared or dedicated hosting  
 
-Websites with design that have some specific features/changes compare to t3kit base.
+Websites with design that have some specific features/changes compared to t3kit base.
 
 * Possible to install **new extensions. ** 
 * Possible to create new custom content elements (*fileadmin/*)  
   * Not more than 5 new custom elements.  
 * Possible to change and create new  BE layouts/templates/partials/layouts (fileadmin/)   
   * Not more than 7 rewritings of existed *partials/templates/layouts*  
-  * Not more than 2 new BE layouts  
+  * Not more than 2 new BE layouts.  
 * **PageTS** and **TypoScript** could be added in TYPO3 BE or additional files in *fileadmin/templates/Configuration/* folder  
 * Site based on **theme_t3kit** extension.  
 * New Front-End layout or t3kit Front-End layout with additional css styling (custom.css)  
@@ -53,7 +53,7 @@ Project type: Waterfall or Agile
 Start: 3+ month  
 Hosting: dedicated hosting   
 
-Big and design heavy websites using just main t3kit features and patterns. A lot of custom features and functions.
+Big and design-heavy websites using just main t3kit features and patterns. A lot of custom features and functions.
 
 * Possible to install new extensions.  
 * New t3kit sub-theme extension:  theme_t3kit_projectName (based on theme_t3kit).  
@@ -67,7 +67,7 @@ Big and design heavy websites using just main t3kit features and patterns. A lot
 
 ###Three types of FE layout  
 
-Every new medium or big project require a new Front End layout. There is three ways of using felayout depending on project needs:  
+Every new medium or big project require a new Front End layout. There are three ways of using felayout depending on project-needs:  
 
 * felayout CSS - providing css for TYPO3.  
 Typical way of working with felayout, like it was on CORE. Providing css, js, icons, fonts and images for TYPO3 installation. Need to create new felayout_customer_projectName.
