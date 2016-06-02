@@ -23,7 +23,7 @@
 
 
 ###Fonts
-* If we whant use unusual fonts, better to use Google Fonts. But always keep in mind not all fonts have good view on Windows especially in big sizes.
+* If we want use unusual fonts, better to use Google Fonts. But always keep in mind not all fonts have good view on Windows especially in big sizes.
 * Not more two - three additional web fonts, and in general not more five fonts(with OS standart fonts)
 
 
