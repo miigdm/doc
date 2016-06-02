@@ -3,8 +3,8 @@
 ###How to set up a vagrant machine for your site
 
 **Requirements:**  
-Virtualbox  
-Vagrant  
+[Virtualbox](https://www.virtualbox.org/)  
+[Vagrant](https://www.vagrantup.com/)  
 NFS (sudo apt-get install nfs-kernel-server nfs-common)  
 BIOS setting (VT-x/AMD-V) enabled.  
 (If you don't have it uncheck: VirtualBox machine Settings -> System -> Hardware Virtualization: Enable VT-x/AMD-V)
