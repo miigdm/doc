@@ -19,6 +19,7 @@
        * [How to create new content elements](how_to_create_new_content_elements.md)
            * [New content element example](new_content_element_example.md)
        * [How to add wrappers](how_to_add_wrappers.md)
+           * for the 
        * [How to add new layout content wrappers](how_to_add_new_layout_content_wrappers.md)
        * [How to add new appearance content wrappers](how_to_add_new_appearance_content_wrappers.md)
        * [How to edit partials and templates (header, footer, content elements)](how_to_edit_partials_and_templates_header,_footer,.md)
