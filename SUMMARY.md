@@ -21,7 +21,7 @@
        * [How to add wrappers](how_to_add_wrappers.md)
            * [How to add new layout content wrappers](how_to_add_new_layout_content_wrappers.md)
            * [How to add new appearance content wrappers](how_to_add_new_appearance_content_wrappers.md)
-           * [How to add new appearance column wrapper](how_to_add_new_column_wrapper.md)
+           * [How to add new appearance column wrappers](how_to_add_new_column_wrapper.md)
        * [How to edit partials and templates (header, footer, content elements)](how_to_edit_partials_and_templates_header,_footer,.md)
        * [How to install felayout](how_to_install_felayout.md)
        * [Three types of felayout for medium and big projects](three_types_of_felayout_for_medium_and_big_project.md)
