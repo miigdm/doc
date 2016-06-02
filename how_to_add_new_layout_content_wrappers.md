@@ -1,6 +1,6 @@
 # How to add new layout content wrappers
 
-Adding a layout wrapper will add a class that wraps the content element of your choosing. This can be helpful when you want an element to look different from the original element. 
+Adding a layout wrapper will add a class to the content element body. This can be helpful when you want an element to look different from the original element.
 
 **Step 1.** Find the elements pagets and setupts files (located in ```theme_t3kit/Configuration/ContentElements/```)  you want to add a layout wrapper to.  
 For this example we will use the "Quote" elements [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.pagets) and [setupts](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.setupts).  
@@ -35,11 +35,11 @@ Remove the ```0 = Default layout for this element``` and ```11 = Example layout 
 Duplicate your browser tab and choose "Template" from the TYPO3 menu.  
 Choose rootpage.  
 The dropdown should have "Typoscript Object Browser" selected.  
-Navigate to tt_content.quote.dataProcessing.1910.classMappings in the tree.  
+Navigate to ```tt_content.quote.dataProcessing.1910.classMappings``` in the tree.  
  
 ![](layout.jpg)  
 
-Here we can see that the only number that is occupied is 100. That means we can pretty much use any number besides that.
+Here we can see that the only number that is occupied is 100.
 
 Step 5.
 Go back to the previous browser tab and add a number of your choosing with the name of your choosing.   
@@ -103,8 +103,8 @@ This will be copied into our setup typoscript.
 Choose "Template" from the TYPO3 menu.  
 Choose rootpage.  
 The dropdown should have "Info/Modify" selected.  
-Click on "Setup".
-Add the block of text.
+Click on "Setup".  
+Add the block of text.  
 Now we need to remove what is not needed. 
 It will look something like this:
 ```
