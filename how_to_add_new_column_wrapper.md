@@ -75,4 +75,26 @@ TCEFORM.tt_content.pi_flexform.gridelements_pi1.columns.column_4_content_wrapper
 Save.
 
 **Step 6.**  
-Now we need to add the class to the wrapper. Open the setupts for the element and copy the entire text:
+Now we need to add the class to the wrapper.  
+
+Choose "Template" from the TYPO3 menu.  
+Choose rootpage.  
+The dropdown should have "Info/Modify" selected.  
+Click on "Setup".  
+Add the block of text:
+```
+tt_content.gridelements_pi1.20.10.setup.Adv1ColumnGrid.cObject.dataProcessing.365.classMappings {
+    99 = light-gray-bg
+}
+tt_content.gridelements_pi1.20.10.setup.Adv2ColumnGrid.cObject.dataProcessing.365.classMappings {
+    99 = light-gray-bg
+}
+tt_content.gridelements_pi1.20.10.setup.Adv3ColumnGrid.cObject.dataProcessing.365.classMappings {
+    99 = light-gray-bg
+}
+tt_content.gridelements_pi1.20.10.setup.Adv4ColumnGrid.cObject.dataProcessing.365.classMappings {
+    99 = light-gray-bg
+}
+```
+
+Save.
