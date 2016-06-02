@@ -62,4 +62,63 @@ It should look something like this now:
 ```
 Save.
 
-Now we have the layout wrapper visible in the backend for this element and it will look like this:  ![](wrapper.jpg)
+Now we have the layout wrapper visible in the backend for this element and it will look like this:  
+  ![](wrapper.jpg)
+  
+  **Step 6. **Now we need to add the class to this layout wrapper. 
+Open the [setupts](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.setupts) for the element and copy the entire text:
+```
+tt_content {
+    quote =< lib.fluidContent
+    quote {
+        templateName = Quote
+        dataProcessing {
+            10 = T3kit\T3kitExtensionTools\DataProcessing\FlexFormProcessor
+            10 {
+                fieldName = pi_flexform
+                as = settings
+            }
+            30 = TYPO3\CMS\Frontend\DataProcessing\SplitProcessor
+            30 {
+                fieldName = header
+                delimiter = ,
+                as = headers
+            }
+            # "inherit" from lib.fluidContent
+            365 < lib.fluidContent.dataProcessing.365
+            1910 < lib.fluidContent.dataProcessing.1910
+
+            # extend class mapping only for this element
+            # 1910 {
+                # classMappings {
+                    # # Override the standard default
+                    # 0 = default-class
+                    # 11 = example-class
+                # }
+            # }
+        }
+    }
+}
+```
+This will be copied into our setup typoscript.  
+Choose "Template" from the TYPO3 menu.  
+Choose rootpage.  
+The dropdown should have "Info/Modify" selected.  
+Click on "Setup".  
+Add the block of text.  
+Now we need to remove what is not needed. 
+It will look something like this:
+```
+tt_content {
+       quote {
+        dataProcessing {
+            365 {
+                classMappings {
+                    99 = appearance-test
+                 }
+             }
+        }
+    }
+}
+```
+Save.
