@@ -43,4 +43,9 @@ And we need to find a number that is not occupied already.
 Duplicate your browser tab and choose "Template" from the TYPO3 menu.  
 Choose rootpage.  
 The dropdown should have "Typoscript Object Browser" selected.  
-Navigate to ```tt_content.quote.dataProcessing.360.classMappings``` in the tree. 
+Navigate to ```tt_content.gridelements_pi1.20.10.setup.Adv1ColumnGrid.cObject.dataProcessing.365.classMappings``` in the tree. ![](Screenshot at jun 02 13-08-03.png)
+
+Here we find that 11,12,13,100,101,102 are occupied, so we can not use these.
+
+**Step 5.** Go back to the previous browser tab and add a number of your choosing with the name of your choosing.
+It should look something like this now:
