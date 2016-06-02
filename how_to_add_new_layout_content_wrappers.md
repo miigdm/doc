@@ -2,10 +2,12 @@
 
 Adding a layout wrapper will add a class to the content element body. This can be helpful when you want an element to look different from the original element.
 
-**Step 1.** Find the elements pagets and setupts files (located in [```theme_t3kit/Configuration/ContentElements/```](https://github.com/t3kit/theme_t3kit/tree/master/Configuration/ContentElements))  you want to add a layout wrapper to.  
+**Step 1.**   
+Find the elements pagets and setupts files (located in [```theme_t3kit/Configuration/ContentElements/```](https://github.com/t3kit/theme_t3kit/tree/master/Configuration/ContentElements))  you want to add a layout wrapper to.  
 For this example we will use the "Quote" elements [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.pagets) and [setupts](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.setupts).  
 
-**Step 2.** Inside the [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.pagets) file we will find a section that is commented out with a set of instruction:
+**Step 2.**   
+Inside the [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.pagets) file we will find a section that is commented out with a set of instruction:
 ```
 # # Use layout field to customize Layout select-box on quote
 # # extend layout select-box only for this element
@@ -41,7 +43,7 @@ Navigate to ```tt_content.quote.dataProcessing.1910.classMappings``` in the tree
 
 Here we can see that the only number that is occupied is 100.
 
-Step 5.
+**Step 5.**  
 Go back to the previous browser tab and add a number of your choosing with the name of your choosing.   
 It should look something like this now:
 ```
