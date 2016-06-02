@@ -66,7 +66,8 @@ Now we have the layout wrapper visible in the backend for this element and it wi
 
 ![](layout2.jpg)
 
-**Step 6. **Now we need to add the class to this layout wrapper. 
+**Step 6. **  
+Now we need to add the class to this layout wrapper. 
 Open the [setupts](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.setupts) for the element and copy the entire text:
 ```
 tt_content {
