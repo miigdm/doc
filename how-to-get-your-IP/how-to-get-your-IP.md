@@ -23,6 +23,7 @@ Livereload also will work on different devices. It means you can edit your site 
 (All Linux-based OS) Or run in Terminal to get short information:
 ```
 hostname -I```
+![](connection-information-ubuntu-terminal-short.png)
 
 
 ---
