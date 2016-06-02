@@ -15,7 +15,11 @@ Livereload also will work on different devices. It means you can edit your site 
 
 
 ## Linux
-Run in Terminal command:
+1. (Ubuntu - With GUI) Take a look on Connection Information.
+![](connection-information-ubuntu-gui.png)
+2. (Ubuntu - Terminal) Run in Terminal ```ifconfig -a``` command to show all network info.
+![](connection-information-ubuntu-terminal.png)
+(All Linux-based OS) Or run in Terminal to get short information:
 ```
 hostname -I```
 
