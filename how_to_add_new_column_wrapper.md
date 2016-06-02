@@ -47,5 +47,21 @@ Navigate to ```tt_content.gridelements_pi1.20.10.setup.Adv1ColumnGrid.cObject.da
 
 Here we find that 11,12,13,100,101,102 are occupied, so we can not use these.
 
-**Step 5.** Go back to the previous browser tab and add a number of your choosing with the name of your choosing.
+**Step 5.**  
+Go back to the previous browser tab and add a number of your choosing with the name of your choosing.
 It should look something like this now:
+```
+# Add a wrapper to Gridelements
+# Items in "wrapper" select box will appear in all grid elements on the site.
+TCEFORM.tt_content.wrapper {
+   types {
+       gridelements_pi1 {
+           # Based on that the default items still exists.
+           addItems {
+                --div-- = Gridelements wrappers:
+                99 = Light-Gray background
+           }
+       }
+   }
+}
+```
