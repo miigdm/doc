@@ -40,3 +40,26 @@ Choose rootpage.
 The dropdown should have "Typoscript Object Browser" selected.  
 Navigate to ```tt_content.quote.dataProcessing.360.classMappings``` in the tree. 
 ![](Screenshot at jun 02 09-23-33.png)
+
+Here we can see that the numbers 100,101,102 are occupied, so we can not use these.
+
+Step 5.
+Go back to the previous browser tab and add a number of your choosing with the name of your choosing.   
+It should look something like this now:
+```
+# # Use layout field to customize Layout select-box on quote
+# # extend layout select-box only for this element
+ TCEFORM.tt_content.wrapper {
+     types {
+         quote {
+             addItems {
+                 --div-- = Quote layouts:
+                 99 = Super example for this element
+             }
+         }
+     }
+ }
+```
+Save.
+
+Now we have the layout wrapper visible in the backend for this element and it will look like this:  ![](wrapper.jpg)
