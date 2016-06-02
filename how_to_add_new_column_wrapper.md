@@ -65,3 +65,14 @@ TCEFORM.tt_content.wrapper {
    }
 }
 ```
+Now that we have added the new item, we need to add it to the four different AdvancedColumnGrids. Add this underneath the text we just wrote:
+```
+TCEFORM.tt_content.pi_flexform.gridelements_pi1.columns.column_1_content_wrapper < TCEFORM.tt_content.pi_flexform.gridelements_pi1.columns.column_content_wrapper_definition
+TCEFORM.tt_content.pi_flexform.gridelements_pi1.columns.column_2_content_wrapper < TCEFORM.tt_content.pi_flexform.gridelements_pi1.columns.column_content_wrapper_definition
+TCEFORM.tt_content.pi_flexform.gridelements_pi1.columns.column_3_content_wrapper < TCEFORM.tt_content.pi_flexform.gridelements_pi1.columns.column_content_wrapper_definition
+TCEFORM.tt_content.pi_flexform.gridelements_pi1.columns.column_4_content_wrapper < TCEFORM.tt_content.pi_flexform.gridelements_pi1.columns.column_content_wrapper_definition
+```
+Save.
+
+**Step 6.**  
+Now we need to add the class to the wrapper. Open the setupts for the element and copy the entire text:
