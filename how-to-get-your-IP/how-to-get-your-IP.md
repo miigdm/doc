@@ -18,6 +18,7 @@ Address for connection to local server, in this case, will be **http://192.168.9
 ![](connection-information-ubuntu-gui.png)
 2. (Ubuntu - Terminal) Run in Terminal ```ifconfig -a``` command to show all network info.
 ![](connection-information-ubuntu-terminal.png)
+Address for connection to local server, in this case, will be **http://192.168.8.207:9004/**
 
 (All Linux-based OS) Or run in Terminal to get short information:
 ```
