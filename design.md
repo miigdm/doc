@@ -33,7 +33,7 @@ Pixelant Core use a lot of icons. Our choice is icon font (a font with icons as 
 **Workflow for Designers:**  
 
 * Open [icomoon.io](https://icomoon.io/), add needed icon libraries and select icons which we need for this project. Also always should remember about required icons for Pixelant Core.
-* Save and download selected icons (fonts and png). Use recomended settings. Only change font name to icons.
+* Save and download selected icons (fonts and png). Use recommended settings. Only change font name to icons.
 * For design in Photoshop use ```png``` icons.
 * Prepare files for FE developers (archive from Icomoon ```icons.zip```)
   * **Important**: Select as few as possible icons from Icomoon. Only icons which we will use on our project.
