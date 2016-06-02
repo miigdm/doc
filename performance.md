@@ -17,7 +17,7 @@
 * Defer loading for not very important js scripts (eg third-party scripts for ads, social widgets, etc)
 
 
-### CSS
+#### CSS
 * Stylesheets should always be specified in the ```head``` of a document.
 * Combine multiple external **CSS** files into one.
 * Minify **CSS**
@@ -30,7 +30,7 @@
 * Always Use normal CSS property names with vendor-prefixed ones.
 * Use **css animations** instead of **js animations**
 
-### Images
+#### Images
 * Use optimal format for images:
   * Photos - **JPEG, PNG-24**
   * Simple image (few colours) (eg logos) - **GIF, PNG-8**
