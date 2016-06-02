@@ -28,7 +28,7 @@
 
 
 ###Icons
-Pixelant Core use a lot of icons. Our choise is icon font (a font with icons as its glyphs). We use web-service [icomoon](https://icomoon.io/) to generate icon font with needed icons. We can use unique icons for every project, even for small project.  
+Pixelant Core use a lot of icons. Our choice is icon font (a font with icons as its glyphs). We use web-service [icomoon](https://icomoon.io/) to generate icon font with needed icons. We can use unique icons for every project, even for small project.  
 
 **Workflow for Designers:**  
 
