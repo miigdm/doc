@@ -15,7 +15,7 @@ Livereload also will work on different devices. It means you can edit your site 
 
 
 ## Linux
-Open a terminal and run:
+Run in Terminal command:
 ```
 hostname -I```
 
