@@ -4,10 +4,12 @@ Adding a appearance content wrapper will wrap the class of the content element. 
 
 The procedure is almost the same as adding a new [layout content wrapper](https://pixelant.gitbooks.io/doc/content/how_to_add_new_layout_content_wrappers.html) but with some small changes.
 
-**Step 1.** Find the elements pagets and setupts files (located in [```theme_t3kit/Configuration/ContentElements/```](https://github.com/t3kit/theme_t3kit/tree/master/Configuration/ContentElements))  you want to add a appearance wrapper to.  
+**Step 1.**   
+Find the elements pagets and setupts files (located in [```theme_t3kit/Configuration/ContentElements/```](https://github.com/t3kit/theme_t3kit/tree/master/Configuration/ContentElements))  you want to add a appearance wrapper to.  
 For this example we will use the "Quote" elements [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.pagets) and [setupts](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.setupts).  
 
-**Step 2.** Inside the [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.pagets) file we will find a section that is commented out with a set of instruction:
+**Step 2.**   
+Inside the [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.pagets) file we will find a section that is commented out with a set of instruction:
 ```
 # # Use layout field to customize Layout select-box on quote
 # # extend layout select-box only for this element
@@ -43,7 +45,7 @@ Navigate to ```tt_content.quote.dataProcessing.360.classMappings``` in the tree.
 
 Here we can see that the numbers 100,101,102 are occupied, so we can not use these.
 
-Step 5.
+**Step 5.**  
 Go back to the previous browser tab and add a number of your choosing with the name of your choosing.   
 It should look something like this now:
 ```
@@ -65,7 +67,8 @@ Save.
 Now we have the layout wrapper visible in the backend for this element and it will look like this:  
   ![](wrapper.jpg)
   
-  **Step 6. **Now we need to add the class to this layout wrapper. 
+  **Step 6. **  
+  Now we need to add the class to this layout wrapper. 
 Open the [setupts](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Quote.setupts) for the element and copy the entire text:
 ```
 tt_content {
