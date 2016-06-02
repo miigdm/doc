@@ -2,20 +2,30 @@
 
 How to set up a vagrant machine for your site
 
-1. Clone the master branch of [vagrant-machine](https://bitbucket.org/pixelant/vagrant-machines) repository to your local machine
-2. Inside of the cloned repository, find the "configuration.yml" file.
+**Requirements:**  
+Virtualbox  
+Vagrant  
+NFS (sudo apt-get install nfs-kernel-server nfs-common)  
+BIOS setting (VT-x/AMD-V) enabled.  
+(If you don't have it uncheck: VirtualBox machine Settings -> System -> Hardware Virtualization: Enable VT-x/AMD-V)
+
+1. Go to a folder where you want your vagrant machines (f.ex. ~/Documents/Vagrant). 
+2. Clone the master branch of [vagrant-machine](https://bitbucket.org/pixelant/vagrant-machines) repository to your local machine
+3. Create a branch for the vagrant machine
+  1. In your terminal, create a new branch with you new project
+  2. git checkout -b NameOfTheNewBranch
+4. Inside of the cloned repository, find the "configuration.yml" file.
  ```
       .
       ├──shared
       |   ├── configuration
-      |         ├── configuration.yml```
+      |         ├── configuration.yml
+```
 
-3. Open it in a texteditor and make the necessary changes:
-
-
-```BASH
+5. Open it in a texteditor and make the necessary changes:
+ ```BASH
 MACHINE_NAME: 'NameOfTheMachine' #<--Change to the name of the project
-IP: '192.168.15.XX' <-- Change to an IP that is not used
+IP: '192.168.15.XX' #<-- Change to an IP that is not used
 HOSTNAME: 'NameOfTheSite.se.vagranthost' #<-- Change the hostname
 ALIASES: 'NameOfTheSite.en.vagranthost' #<--Change the hostname
 # uid:domainname uid:domainname ...
@@ -35,16 +45,9 @@ MAIN_REPO: 'git@bitbucket.org:pixelant/NameOfTheSite.git' #<-- Change to the cor
 MAIN_REPO_BRANCH: 'NameOfTheBranch' #<-- Change to the correct branch, master, develop or other
 # gitRepository,felayoutName,branch gitRepository,felayoutName,branch ...
 FELAYOUT_REPOS: 'git@bitbucket.org:pixelant/NameOfTheSitesFeLayout.git,NameOfTheSitesFeLayout,big' #<-- Change to the correct felayout repository
-SYNC_FOLDERS: 'fileadmin/user_upload/ uploads/ typo3conf/l10n/ fileadmin/example_files/' ```
+SYNC_FOLDERS: 'fileadmin/user_upload/ uploads/ typo3conf/l10n/ fileadmin/example_files/' 
+```
 
-4 . Save your changes.
-
-
----
-
-Create a branch for the vagrant machine
-
-1. In your terminal, create a new branch with you new project
-2. git checkout -b NameOfTheNewBranch
-3. Commit your changes and push to your new branch
-4. git push -u origin NameOfTheNewBranch 
+6. Save your changes.
+7. Commit your changes and push to your new branch:
+```git push -u origin NameOfTheNewBranch``` 
