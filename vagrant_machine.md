@@ -1,6 +1,6 @@
 # Vagrant machine
 
-How to set up a vagrant machine for your site
+###How to set up a vagrant machine for your site
 
 **Requirements:**  
 Virtualbox  
@@ -51,3 +51,30 @@ SYNC_FOLDERS: 'fileadmin/user_upload/ uploads/ typo3conf/l10n/ fileadmin/example
 6. Save your changes.
 7. Commit your changes and push to your new branch:
 ```git push -u origin NameOfTheNewBranch``` 
+
+---
+**First run**  
+First time, or when you want to update the site, run:  
+```
+./init.sh
+```  
+It will clone repositories and copy a dbdump from from remote installation before starting provision.  
+  
+**Work**  
+```
+./work.sh
+```
+It will check and clear known_hosts, bring up the machine, and ssh to the machine with some tunnels.  
+localhost:8080 -> vagrant-machine:8080 (solr)  
+localhost:3307 -> vagrant-machine:3306 (mysql)  
+localhost:1080 -> vagrant-machine:1080 (mailcatcher)  
+  
+**Clean up**
+```
+./destroy.sh
+```
+It will destroy the vagrant machine and remove directory shared/site/.  
+To only destroy the vagrant machine you can run:  
+```
+vagrant destroy
+```
