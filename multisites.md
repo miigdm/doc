@@ -28,7 +28,8 @@
 * Favicons
 
 **Pros & Cons:**  
-Pros: 
+Pros:
+* Editors can change content for multiple sites.
 
 Cons:  
 * Clearing cache will apply to all sites 
