@@ -1,4 +1,4 @@
-# How to edit partials and templates (header, footer, content elements)
+# How to edit partials and templates (header, footer)
 
 ###Step 1
 
