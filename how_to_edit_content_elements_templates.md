@@ -29,7 +29,7 @@ lib.fluidContent {
 Save.
 
 The number **2000** is the value we give to the new templateRootPath. By default, 0, 10, 1910, 1911 are already set to the original folder of templateRootPath.  
-If you want to make sure that the value you want to use is not already set, you can check it with the **"TypoScript Object Browser"** and find *lib* -> *fluidContent* -> *templateRootPaths* and see what values are aldready set. 
+If you want to make sure that the value you want to use is not already set, you can check it with the **"TypoScript Object Browser"** and find *lib* -> *fluidContent* -> *templateRootPaths* and see what values are already set. 
 
 
 ###Step 3
