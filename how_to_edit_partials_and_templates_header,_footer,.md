@@ -28,7 +28,7 @@ plugin.tx_themes {
     }  
 }  ```
 The number **640** is the value we give to the new PartialRootPath. By default, 100, 300, 500 are already set to the original folder of partialRootPaths.  
-If you want to make sure that the value you want to use is not already set, you can check it with the **"TypoScript Object Browser"** and find *tx_themes* -> *view* -> *partialRootPaths* and see what values are aldready set. 
+If you want to make sure that the value you want to use is not already set, you can check it with the **"TypoScript Object Browser"** and find *tx_themes* -> *view* -> *partialRootPaths* and see what values are already set. 
 
   ![](partialrootpath.png)
   
