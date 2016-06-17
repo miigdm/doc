@@ -26,6 +26,7 @@
        * [How to edit content elements templates](how_to_edit_content_elements_templates.md)
        * [How to install felayout](how_to_install_felayout.md)
        * [Three types of felayout for medium and big projects](three_types_of_felayout_for_medium_and_big_project.md)
+       * How to disable BE layouts
    * [Multisites](multisites.md)
    * [t3kit project types](t3kit_project_types.md)
 * [Vagrant machine](vagrant_machine.md)
