@@ -1,8 +1,8 @@
 # Documentation
 
-###testing gitbook for pixelant documentation
+###t3kit - made by Pixelant
 
 
-### [Pixelant Doc](https://pixelant.gitbooks.io/doc/content/)
+### [Start reading now](https://pixelant.gitbooks.io/doc/content/)
 
 
