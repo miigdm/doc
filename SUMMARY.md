@@ -29,7 +29,7 @@
        * [How to disable BE layouts](how_to_disable_be_layouts.md)
    * [Multisites](multisites.md)
    * [t3kit project types](t3kit_project_types.md)
-   * How to contribute to t3kit
+   * [How to contribute to t3kit](how_to_contribute_to_t3kit.md)
 * [Vagrant machine](vagrant_machine.md)
 * [Custom News templates](custom_news_templates.md)
 * [Custom Special Menu templates](custom_special_menu_templates.md)
