@@ -34,7 +34,7 @@
 * [Custom News templates](custom_news_templates.md)
 * [Custom Special Menu templates](custom_special_menu_templates.md)
 * [RTE add custom class](rtemd.md)
-* Some configuration of solr
+* [Some configuration of solr](some_configuration_of_solr.md)
 * [Testing packages](testing_packages.md)
    * Some configuration of solr
 * [Pixelant Manual](pixelant_manual.md)
