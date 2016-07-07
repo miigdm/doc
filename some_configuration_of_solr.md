@@ -1,0 +1,2 @@
+# Some configuration of solr
+
