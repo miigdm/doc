@@ -39,4 +39,5 @@
 * [Pixelant Manual](pixelant_manual.md)
    * [Pixelant JavaScript Style Guide](pixelant_javascript_style_guide.md)
 * [RTE](rte.md)
+   * RTE add tables
 
