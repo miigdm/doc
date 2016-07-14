@@ -36,7 +36,6 @@
 * [RTE add custom class](rtemd.md)
 * [Some configuration of solr](some_configuration_of_solr.md)
 * [Testing packages](testing_packages.md)
-   * Some configuration of solr
 * [Pixelant Manual](pixelant_manual.md)
    * [Pixelant JavaScript Style Guide](pixelant_javascript_style_guide.md)
 
