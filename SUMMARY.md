@@ -39,5 +39,5 @@
    * [Pixelant JavaScript Style Guide](pixelant_javascript_style_guide.md)
 * [RTE](rte.md)
    * [RTE add custom class](rtemd.md)
-   * RTE add tables
+   * [RTE add tables](rte_add_tables.md)
 
