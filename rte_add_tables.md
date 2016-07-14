@@ -1,4 +1,4 @@
-# RTE add tables
+# RTE enable tables
 
 Adding tables is not encouraged (according to Phat, for the real reasons, ask him) but sometimes it is a good option.
 
@@ -16,3 +16,7 @@ RTE.default{
     showButtons := addToList(insertcharacter, link, table, findreplace, chMode, removeformat, undo, redo, about)
 }
 ```
+
+
+
+
