@@ -49,7 +49,7 @@ RTE.classes {
 
 RTE.default {
 
-    contentCSS = fileadmin/templates/theme_t3kit/custom_content_elements/Resources/Public/Extensions/Rtehtmlarea/Css/backend.css
+    contentCSS = filepath in filelist
 
     # list allowed classes (must also be defined in the css-file)
     proc.allowedClasses := addToList(name-of-class)
@@ -63,4 +63,12 @@ RTE.default {
 }
 ```
 
-The "contentCSS = filepath" is important because, without it
+The "contentCSS = filepath in filelist" is important because, without it, the new text style with not be visible in backend. You will need to [copy the original ](https://github.com/t3kit/theme_t3kit/blob/master/Resources/Public/Extensions/Rtehtmlarea/Css/backend.css)and place it somewhere in filelist, then add your own css for the new class. For example:
+```
+div.font-roboto-regular ,
+p.font-roboto-regular ,
+span.font-roboto-regular  {
+  color: #137486; !important;
+  font-size: 18px;
+}
+```
