@@ -33,11 +33,11 @@
 * [Vagrant machine](vagrant_machine.md)
 * [Custom News templates](custom_news_templates.md)
 * [Custom Special Menu templates](custom_special_menu_templates.md)
-* [RTE add custom class](rtemd.md)
 * [Some configuration of solr](some_configuration_of_solr.md)
 * [Testing packages](testing_packages.md)
 * [Pixelant Manual](pixelant_manual.md)
    * [Pixelant JavaScript Style Guide](pixelant_javascript_style_guide.md)
+* [RTE add custom class](rtemd.md)
 * [RTE](rte.md)
    * RTE add tables
 
