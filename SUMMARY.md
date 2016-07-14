@@ -37,7 +37,7 @@
 * [Testing packages](testing_packages.md)
 * [Pixelant Manual](pixelant_manual.md)
    * [Pixelant JavaScript Style Guide](pixelant_javascript_style_guide.md)
-* [RTE add custom class](rtemd.md)
 * [RTE](rte.md)
+   * [RTE add custom class](rtemd.md)
    * RTE add tables
 
