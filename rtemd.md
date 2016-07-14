@@ -1,10 +1,8 @@
 # RTE add custom class
-Adding classes to RTE links:
+####Adding classes to RTE links:
 
 Edit root page, click on the "Resources" tab and in the "Page TSConfig" section add:
 
-
----
 
 
 1*:
@@ -16,8 +14,6 @@ Edit root page, click on the "Resources" tab and in the "Page TSConfig" section 
 3*: ```RTE.classes.btn-greenborder.name = Button with green border```
 
 
-
----
 1* : This is to add the classes you want to the link
 
 2*: This is to add it to the list
@@ -37,3 +33,34 @@ RTE.classes.btn-greenborder.name = Button with green green border
 
 
 Save the added script.
+
+---
+####Adding classes to text style:
+
+Edit root page, click on the "Resources" tab and in the "Page TSConfig" section add:
+
+```
+RTE.classes {
+        
+    name-of-class{
+    	name = name shown in backend
+    	}
+}
+
+RTE.default {
+
+    contentCSS = fileadmin/templates/theme_t3kit/custom_content_elements/Resources/Public/Extensions/Rtehtmlarea/Css/backend.css
+
+    # list allowed classes (must also be defined in the css-file)
+    proc.allowedClasses := addToList(name-of-class)
+
+    # A class name to be assigned to the blocks whenever the item is applied to selected text.
+    buttons.blockstyle.tags.div.allowedClasses := addToList(name-of-class)
+
+    ## for the textstyle
+    buttons.textstyle.tags.span.allowedClasses := addToList(name-of-class)
+
+}
+```
+
+The "contentCSS = filepath" is important because, without it
