@@ -9,5 +9,4 @@ includeJS {
   jquery.external = 1
   jquery.excludeFromConcatenation = 1
   jquery.disableCompression = 1
-}
-```
+}```
