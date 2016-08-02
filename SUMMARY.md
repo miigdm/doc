@@ -14,6 +14,7 @@
        * [Icons](icons.md)
        * [RootFiles](rootfiles.md)
    * [Design](design.md)
+   * Using external JS libraries 
 * [t3kit](t3kit.md)
    * [t3kit project manual](t3kit_project_manual.md)
        * [How to create new content elements](how_to_create_new_content_elements.md)
