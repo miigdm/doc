@@ -1,6 +1,6 @@
 # Using external JS/CSS libraries
 
-Often when using JS or CSS libraries they are included trough external sources (http/https). Since T3kit uses JS/CSS concatenation and compression those libraries will be downloaded to the  server each time the cache is cleared causing external request which in turn causes performance impact on the server. 
+*Often when using JS or CSS libraries they are included trough external sources (http/https). Since T3kit uses JS/CSS concatenation and compression those libraries will be downloaded to the  server each time the cache is cleared causing external request which in turn causes performance impact on the server. 
 
 To prevent this from happening use the following settings for external files:
 
