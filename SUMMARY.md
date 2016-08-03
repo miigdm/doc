@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [BE](be.md)
+   * Upgrading to newer version
 * [FE](fe.md)
    * [felayout](felayout.md)
    * [Development](development/development.md)
