@@ -29,7 +29,7 @@
        * [How to install felayout](how_to_install_felayout.md)
        * [Three types of felayout for medium and big projects](three_types_of_felayout_for_medium_and_big_project.md)
        * [How to disable BE layouts](how_to_disable_be_layouts.md)
-       * How to add custom icons
+       * [How to add custom icons](how_to_add_custom_icons.md)
    * [Multisites](multisites.md)
    * [t3kit project types](t3kit_project_types.md)
    * [How to contribute to t3kit](how_to_contribute_to_t3kit.md)
