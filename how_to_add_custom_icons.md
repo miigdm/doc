@@ -11,20 +11,23 @@ Press "Generate font" and download it with configuration:
   - Class prefix: "icon-"
   
 Unzip IcoMoon archive and place all content to "/fileadmin/custom/icons"
+
 Structure:
 ```
-  --demo-files (optional)
-  |-demo.css
-  |-demo.js
-  --fonts
-  |-icons.eot
-  |-icons.svg
-  |-icons.ttf
-  |-icons.woff
-  --Read Me.txt (optional)
-  --demo.html (optional)
-  --selection.json
-  --style.css
+  ├──demo-files (optional)
+  |  ├──demo.css
+  |  └──demo.js
+  |
+  ├──fonts
+  |  ├──icons.eot
+  |  ├──icons.svg
+  |  ├──icons.ttf
+  |  └──icons.woff
+  |
+  ├──Read Me.txt (optional)
+  ├──demo.html (optional)
+  ├──selection.json
+  └──style.css
 ```
   
 Page -> Home -> Edit -> Resources 
