@@ -12,7 +12,7 @@ Press "Generate font" and download it with configuration:
   
 Unzip IcoMoon archive and place all content to "/fileadmin/custom/icons"
 Structure:
-
+```
   --demo-files (optional)
   |-demo.css
   |-demo.js
@@ -25,16 +25,15 @@ Structure:
   --demo.html (optional)
   --selection.json
   --style.css
+```
   
-  
-
-
 Page -> Home -> Edit -> Resources 
+```
 Add this lines to Page TSConfig
 TCEFORM.tt_content.pi_flexform.bigIconTextButton.sDEF.iconClass {
     config {
         cssFile = fileadmin/custom/icons/style.css
     }
 }
-
+````
 
