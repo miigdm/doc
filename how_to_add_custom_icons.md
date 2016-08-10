@@ -7,12 +7,12 @@ Open `selection.json` file in [IcoMoon](https://icomoon.io/) app. Edit/add custo
 After editing - select custom icons to add them to set. 
 
 Press "Generate font" and download it with configuration:
-  - Font name: "icons"
-  - Class prefix: "icon-"
+  - Font name: `icons`
+  - Class prefix: `icon-`
   
-Unzip IcoMoon archive and place all content to "/fileadmin/custom/icons"
+Unzip IcoMoon archive and place all content to `/fileadmin/custom/icons`
 
-Structure:
+Structure of the `/fileadmin/custom/icons` folder:
 ```
   ├──demo-files (optional)
   |  ├──demo.css
@@ -33,7 +33,7 @@ Structure:
 Page -> Home -> Edit -> Resources 
 ```
 Add this lines to Page TSConfig
-TCEFORM.tt_content.pi_flexform.bigIconTextButton.sDEF.iconClass {
+TCEFORM.tt_content.pi_flexform.**bigIconTextButton**.sDEF.iconClass {
     config {
         cssFile = fileadmin/custom/icons/style.css
     }
