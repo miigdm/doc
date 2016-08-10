@@ -12,6 +12,7 @@ Press "Generate font" and download it with configuration:
   
 Unzip IcoMoon archive and place all content to "/fileadmin/custom/icons"
 Structure:
+
   --demo-files (optional)
   |-demo.css
   |-demo.js
