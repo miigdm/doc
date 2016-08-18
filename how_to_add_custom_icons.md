@@ -36,7 +36,7 @@ Structure of the `/fileadmin/custom/icons` folder:
 ####Adding TCE configs with new icon set (f.e. for bigIconTextButton element)
 After placing icon files we can add them to elements, for example - for `bigIconTextButton`. For this we need to edit start page: `Page → Home → Edit → Resources (tab)`
 
-Add this lines to `Page TSConfig`
+Add these lines to `Page TSConfig`
 ```
 TCEFORM.tt_content.pi_flexform.bigIconTextButton.sDEF.iconClass {
     config {
@@ -45,9 +45,39 @@ TCEFORM.tt_content.pi_flexform.bigIconTextButton.sDEF.iconClass {
 }
 ```
 
+To add the new icons to Page Properties (under the Appearance tab), add these lines to `Page TSConfig`
+```
+TCEFORM.pages.tx_themes_icon.iconClass {
+    config {
+        cssFile = fileadmin/custom/icons/style.css
+    }
+}
+```
 
 ####Adding new set of icons to FE
-To add this icons to FE we need to include them to `/fileadmin/custom/css/custom.less`:
+First you have to make a copy of  `style.css` for front-end. Please call it `style_fe.css`.
+
+Edit this file and remove this section:
+
+```css
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+```
+Otherwise it will conflict with elements like Icon, Text and Button, which uses the class `icon-text-btn`).
+
+Then, to add these icons to FE we need to include them to `/fileadmin/custom/css/custom.less`. 
 
 ```css
 /* Icons mixin */
@@ -66,7 +96,7 @@ To add this icons to FE we need to include them to `/fileadmin/custom/css/custom
 }
 
 /* Importing new icons set */
-@import url('../icons/style.css');
+@import url('../icons/style_fe.css');
 ```
 
 
