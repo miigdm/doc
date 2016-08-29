@@ -44,5 +44,5 @@
 * [RTE](rte.md)
    * [RTE add custom class](rtemd.md)
    * [RTE enable tables](rte_add_tables.md)
-   * RTE add custom blockstyle class
+   * [RTE add custom blockstyle class](rte_add_custom_blockstyle_class.md)
 
