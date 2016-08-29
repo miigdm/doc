@@ -2,7 +2,7 @@
 
 When working with a multisite installation that are based on the **Medium** value in t3kit. There may be a need to have custom CSS for one of the sites, that can be achieved with the following steps.
 
-By default  t3kit’s TS is using less and css:
+By default t3kit’s typoscript (TS) is using Less and CSS:
 
 ```
   page.includeCSS.customLess = fileadmin/custom/css/custom.less
