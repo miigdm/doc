@@ -31,6 +31,7 @@
        * [How to disable BE layouts](how_to_disable_be_layouts.md)
        * [How to add custom icons](how_to_add_custom_icons.md)
    * [Multisites](multisites.md)
+       * Multisite Medium
    * [t3kit project types](t3kit_project_types.md)
    * [How to contribute to t3kit](how_to_contribute_to_t3kit.md)
 * [Vagrant machine](vagrant_machine.md)
