@@ -51,3 +51,10 @@ Save
 Click on the lightning symbol and "Initialize Solr connections"
 
 Click on Search in the menu to the left, here you should get an Overview of the Apache Solr servers that has been contacted. 
+
+### Using hosted-solr.com
+
+Solr hosting hosted-solr.com is not supported out of the box. It uses randomly generated string names for the folders containing cores. If you have just a simple single language single domain page, you can override the solr path configuration using typoscript setup (not constants), like this:
+```plugin.tx_solr.solr.path = /425cdec5634-myaccount/mycore/```
+
+If you do not have such simple site, you will need to override the path for each language. This requires separate core with additional conditions like in the current setup.
