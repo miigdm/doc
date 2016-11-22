@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [BE](be.md)
    * [Upgrading to newer version](upgrading_to_newer_version.md)
-   * Install t3kit bluemountain on existing installation
+   * [Install t3kit bluemountain on existing installation](install_t3kit_bluemountain_on_existing_installatio.md)
 * [FE](fe.md)
    * [felayout](felayout.md)
    * [Development](development/development.md)
