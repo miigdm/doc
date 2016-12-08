@@ -98,5 +98,5 @@ Then, to add these icons to FE we need to include them to `/fileadmin/custom/css
 /* Importing new icons set */
 @import url('../icons/style_fe.css');
 ```
-
+Note: If you are running a project that uses ```.less```, then you will need to rename the ```style_fe.css``` to ```style_fe.less```. Otherwise when going into production mode, the compressed files will not include the ```style_fe.css``` file if you are running it on less. 
 
