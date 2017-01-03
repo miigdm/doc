@@ -7,6 +7,9 @@
 **Production mode** should be enabled manually in a process of launching the site. With this mode, all `CSS` and `JS` files will be minified and concatenated, which is very good from web performance side. Also, it will open site for search robots. 
 
 
+**Important:** Don't forget to enable **Production mode** when the site is launched because otherwise, Google will not index this site.
 
 
 
+### Where to change:
+Tab `Themes` -> `Expert` -> `Development Mode` selector.
