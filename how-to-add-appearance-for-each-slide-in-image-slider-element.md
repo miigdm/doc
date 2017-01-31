@@ -30,3 +30,4 @@ Open the [setupts](https://github.com/t3kit/theme_t3kit/blob/master/Configuratio
 #   20 = example-class
 # }
 ```
+Now we need to uncomment this section and add class mappings for every slide appearance.
