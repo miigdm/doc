@@ -21,3 +21,12 @@ Inside the [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configurati
 So we just need to uncomment it and change a name of appearance how we need. After this, we will have the layout wrapper visible in the backend for every slide.
 
 **Step 3.**
+Next, we need to add the classes for every appearance which we added in the previous step.
+Open the [setupts](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Slider.setupts) file, where we will find a section that is also commented.
+```
+# appearance {
+# # Extend appearance for each slide for this element
+#   10 = example-class
+#   20 = example-class
+# }
+```
