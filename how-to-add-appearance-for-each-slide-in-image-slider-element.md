@@ -1,6 +1,6 @@
 # How to add appearance for each slide in Image Slider Element
 
-With slide appearance, we will add a special class for every slide in Image Slider Element.  This can be helpful when you want a slide to look different from the another slide.
+With slide appearance, we will add a special class for every slide in Image Slider Element.  This can be helpful when we want a slide to look different from the another slide.
 
 **Step 1.**
 Find the `Slider.pagets` and `Slider.setupts` files (located in [```theme_t3kit/Configuration/ContentElements/```](https://github.com/t3kit/theme_t3kit/tree/master/Configuration/ContentElements))
@@ -18,7 +18,7 @@ Inside the [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configurati
 #     }
 # }
 ```
-So we just need to uncomment it and change a name of appearance how we need. After this, we will have the layout wrapper visible in the backend for every slide.
+So we just need to uncomment it and change a name of appearance how we need. After this, we will have the slide appearance visible in the backend for every slide.
 
 **Step 3.**
 Next, we need to add the classes for every appearance which we added in the previous step.
