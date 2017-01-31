@@ -18,4 +18,6 @@ Inside the [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configurati
 #     }
 # }
 ```
-So we just need to uncomment it and change a name of appearance how we need.
+So we just need to uncomment it and change a name of appearance how we need. After this, we will have the layout wrapper visible in the backend for every slide.
+
+**Step 3.**
