@@ -16,7 +16,7 @@ Last update \(January 2017\)
 |  |  |  |
 | **OS** |  |  |
 | macOS Sierra		 |  |  |
-| Windows 8, Windos 10 |  |  |
+| Windows 8, Windows 10 |  |  |
 |  |  |  |
 | _Is included_ | _Costs 25% extra _ | _Costs 50% extra_ |
 
