@@ -1,0 +1,21 @@
+# How to add appearance for each slide in Image Slider Element
+
+With slide appearance, we will add a special class for every slide in Image Slider Element.  This can be helpful when you want a slide to look different from the another slide.
+
+**Step 1.**
+Find the `Slider.pagets` and `Slider.setupts` files (located in [```theme_t3kit/Configuration/ContentElements/```](https://github.com/t3kit/theme_t3kit/tree/master/Configuration/ContentElements))
+
+
+**Step 2.**
+Inside the [pagets](https://github.com/t3kit/theme_t3kit/blob/master/Configuration/ContentElements/Slider.pagets) file we will find a section that is commented out with a set of instruction:
+```
+# # This is for adding options in the selectbox in each slide.
+# TCEFORM.sys_file_reference.tx_themet3kit_slide_appearance {
+#      addItems {
+#          --div-- = Slider slide appearances:
+#          10 = Light text and right aligned text area
+#          20 = Dark text and centered aligned text area
+#     }
+# }
+```
+So we just need to uncomment it and change a name of appearance how we need.
