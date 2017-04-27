@@ -32,6 +32,7 @@
     * [Three types of felayout for medium and big projects](three_types_of_felayout_for_medium_and_big_project.md)
     * [How to disable BE layouts](how_to_disable_be_layouts.md)
     * [How to add custom icons](how_to_add_custom_icons.md)
+    * [Creating content element as an extension](creating-content-element-as-an-extension.md)
   * [Multisites](multisites.md)
     * [Multisite Medium](multisite_medium.md)
   * [t3kit project types](t3kit_project_types.md)
