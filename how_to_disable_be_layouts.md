@@ -5,27 +5,28 @@ In t3kit we have possibility to disable unneeded BE layouts. To do it we just ne
 For example to delete all BE layout add this code in your t3kit installation:
 
 ```
-backendlayouts.Content >
-backendlayouts.ContentMenu >
-backendlayouts.ContentMenuSidebar >
-backendlayouts.ContentSidebar >
-backendlayouts.ContentSidebarMenu >
-backendlayouts.Empty >
-backendlayouts.GridContainer >
-backendlayouts.MenuContent >
-backendlayouts.MenuContentSidebar >
-backendlayouts.MenuSidebarContent >
-backendlayouts.SidebarContent >
-backendlayouts.SidebarContentMenu >
-backendlayouts.SidebarMenuContent >
-backendlayouts.StartPage >
-backendlayouts.TopContentContent >
-backendlayouts.TopContentContentMenu >
-backendlayouts.TopContentContentSidebar >
-backendlayouts.TopContentMenuContent >
-backendlayouts.TopContentMenuContentSidebar >
-backendlayouts.TopContentSidebarContent >
+mod.web_layout.backendlayouts.Content >
+mod.web_layout.backendlayouts.ContentMenu >
+mod.web_layout.backendlayouts.ContentMenuSidebar >
+mod.web_layout.backendlayouts.ContentSidebar >
+mod.web_layout.backendlayouts.ContentSidebarMenu >
+mod.web_layout.backendlayouts.Empty >
+mod.web_layout.backendlayouts.GridContainer >
+mod.web_layout.backendlayouts.MenuContent >
+mod.web_layout.backendlayouts.MenuContentSidebar >
+mod.web_layout.backendlayouts.MenuSidebarContent >
+mod.web_layout.backendlayouts.SidebarContent >
+mod.web_layout.backendlayouts.SidebarContentMenu >
+mod.web_layout.backendlayouts.SidebarMenuContent >
+mod.web_layout.backendlayouts.StartPage >
+mod.web_layout.backendlayouts.TopContentContent >
+mod.web_layout.backendlayouts.TopContentContentMenu >
+mod.web_layout.backendlayouts.TopContentContentSidebar >
+mod.web_layout.backendlayouts.TopContentMenuContent >
+mod.web_layout.backendlayouts.TopContentMenuContentSidebar >
+mod.web_layout.backendlayouts.TopContentSidebarContent >
 ```
 
-BTW this code already added in t3kit, but it commented by default:
+BTW this code already added in t3kit, but it commented by default:  
 `theme_t3kit/Configuration/PageTS/tsconfig.txt`
+
