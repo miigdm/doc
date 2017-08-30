@@ -10,7 +10,6 @@
   * [How to get your IP-address?](how-to-get-your-IP/how-to-get-your-IP.md)
   * [Static site](static-site/static-site.md)
   * [File structure](file-structure/file-structure.md)
-  * [test1](test1.md)
   * [FElayout Ricky](felayout_ricky.md)
     * [Performance](performance.md)
     * [Icons](icons.md)
